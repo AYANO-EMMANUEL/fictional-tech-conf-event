@@ -63,12 +63,7 @@ export const RegistrationForm = ({ onSuccess }: RegistrationFormProps) => {
     if (!formData.phone) {
       newErrors.phone = 'Phone number is required';
       isValid = false;
-    } else if (
-      !(
-        /^\+?234\s?\d{10}$/.test(formData.phone) ||
-        /^\d{11}$/.test(formData.phone)
-      )
-    ) {
+    } else if (!/^\+?[0-9\s-]{13,}$/.test(formData.phone)) {
       newErrors.phone = 'Please enter a valid phone number';
       isValid = false;
     }

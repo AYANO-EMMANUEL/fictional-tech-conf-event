@@ -18,7 +18,7 @@ function App() {
         {/* Navigation */}
         <nav className="bg-nigeria-green/90 backdrop-blur-sm shadow-md">
           <div className="container mx-auto px-4">
-            <div className="flex flex-col justify-center sm:flex-row space-y-2 sm:space-y-0 sm:space-x-6 py-6">
+            <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-6 py-6">
               <button 
                 onClick={() => setActiveSection('register')}
                 className={`btn ${activeSection === 'register' 

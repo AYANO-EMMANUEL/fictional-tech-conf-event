@@ -108,7 +108,7 @@ export const FAQ = () => {
         <p className="text-gray-600 mb-4">Still have questions?</p>
         <a
           href="mailto:info@techconf.com"
-          className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700 transition-colors duration-200"
+          className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-colors duration-200"
         >
           Contact Our Team
           <svg

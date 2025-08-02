@@ -52,10 +52,7 @@
 
 /* Secondary button */
 .btn-secondary {
-  /* @apply bg-white text-nigeria-green border-2 border-nigeria-green hover:bg-green-50 focus:bg-green-50 active:bg-green-100; */
-  background-color: #f3f4f6;
-  color: green;
-  border: 1px solid green;
+  @apply bg-white text-nigeria-green border-2 border-nigeria-green hover:bg-green-50 focus:bg-green-50 active:bg-green-100;
 }
 
 .btn-secondary:hover {

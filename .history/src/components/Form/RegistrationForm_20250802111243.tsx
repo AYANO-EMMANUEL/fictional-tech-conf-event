@@ -63,12 +63,7 @@ export const RegistrationForm = ({ onSuccess }: RegistrationFormProps) => {
     if (!formData.phone) {
       newErrors.phone = 'Phone number is required';
       isValid = false;
-    } else if (
-      !(
-        /^\+?234\s?\d{10}$/.test(formData.phone) ||
-        /^\d{11}$/.test(formData.phone)
-      )
-    ) {
+    } else if (!/^\+?[0-9\s-]{10,}$/.test(formData.phone)) {
       newErrors.phone = 'Please enter a valid phone number';
       isValid = false;
     }
@@ -192,7 +187,7 @@ export const RegistrationForm = ({ onSuccess }: RegistrationFormProps) => {
             className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent ${
               errors.phone ? 'border-red-500' : 'border-gray-300'
             }`}
-            placeholder="+234 800 000 0000"
+            placeholder="+1 (555) 123-4567"
           />
           {errors.phone && (
             <p className="mt-1 text-sm text-red-600">{errors.phone}</p>

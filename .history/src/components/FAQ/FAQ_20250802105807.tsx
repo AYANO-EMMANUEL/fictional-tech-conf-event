@@ -62,9 +62,9 @@ export const FAQ = () => {
             className="border border-gray-200 rounded-lg overflow-hidden transition-all duration-200"
           >
             <button
-              className={`w-full px-6 py-4 text-left cursor-pointer flex justify-between items-center focus:outline-none transition-all duration-200 transform hover:scale-[1.005] ${
+              className={`w-full px-6 py-4 text-left flex justify-between items-center focus:outline-none transition-all duration-200 transform hover:scale-[1.005] ${
                 openIndex === index 
-                  ? 'bg-gradient-to-r from-green-50 to-green-100 border-l-4 border-green-500 -ml-1 pl-5' 
+                  ? 'bg-gradient-to-r from-blue-50 to-blue-100 border-l-4 border-blue-500 -ml-1 pl-5' 
                   : 'hover:bg-gray-50 hover:pl-5 hover:-ml-1 border-l-4 border-transparent'
               }`}
               onClick={() => toggleAccordion(index)}
@@ -108,7 +108,7 @@ export const FAQ = () => {
         <p className="text-gray-600 mb-4">Still have questions?</p>
         <a
           href="mailto:info@techconf.com"
-          className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700 transition-colors duration-200"
+          className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-colors duration-200"
         >
           Contact Our Team
           <svg

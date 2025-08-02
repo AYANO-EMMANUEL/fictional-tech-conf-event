@@ -11,8 +11,8 @@ function App() {
       {/* Header */}
       <header className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white shadow-lg">
         <div className="container mx-auto px-4 py-6">
-          <h1 className="text-3xl md:text-4xl font-bold mb-2">TechConf 2024</h1>
-          <p className="text-blue-100">November 15-17, 2024 • San Francisco, CA</p>
+          <h1 className="text-3xl md:text-4xl font-bold mb-2">TechConf 2025</h1>
+          <p className="text-blue-100">November 15-17, 2025 • San Francisco, CA</p>
         </div>
         
         {/* Navigation */}
@@ -94,7 +94,7 @@ function App() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
-              <h3 className="text-xl font-bold">TechConf 2024</h3>
+              <h3 className="text-xl font-bold">TechConf 2025</h3>
               <p className="text-gray-400">The premier tech conference of the year</p>
             </div>
             <div className="flex space-x-4">

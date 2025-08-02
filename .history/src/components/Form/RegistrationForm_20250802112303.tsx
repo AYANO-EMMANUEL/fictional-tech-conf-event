@@ -65,7 +65,7 @@ export const RegistrationForm = ({ onSuccess }: RegistrationFormProps) => {
       isValid = false;
     } else if (
       !(
-        /^\+?234\s?\d{10}$/.test(formData.phone) ||
+        /^\+?234\s?\d{11}$/.test(formData.phone) ||
         /^\d{11}$/.test(formData.phone)
       )
     ) {
