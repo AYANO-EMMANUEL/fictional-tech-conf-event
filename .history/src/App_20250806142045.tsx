@@ -10,9 +10,9 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      <header className="bg-gradient-to-r py-8 text-center from-green-500 to-green-700 bg-cover bg-bottom bg-[url('../src/assets/tnigeria-bg.jpeg')] text-white shadow-lg">
-        <div className="container mx-auto px-4 pt-6">
-          <h1 className="text-3xl md:text-4xl w-max inline-block p-3 rounded-lg bg-green-500/90 font-bold mb-2">NaijaTech Summit 2025</h1>
+      <header className="bg-gradient-to-r text-center from-green-500 to-green-700 bg-cover bg-bottom bg-[url('../src/assets/tnigeria-bg.jpeg')] text-white shadow-lg">
+        <div className="container mx-auto px-4 py-6">
+          <h1 className="text-3xl md:text-4xl bg-green-500/90 font-bold mb-2">NaijaTech Summit 2025</h1>
           <p className="text-blue-100">November 15-17, 2025 • Landmark Event Centre, Lagos, Nigeria</p>
         </div>
         

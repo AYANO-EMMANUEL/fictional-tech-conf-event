@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { RegistrationForm } from './components/Form/RegistrationForm';
 import Schedule from './components/Schedule/Schedule';
 import FAQ from './components/FAQ/FAQ';
-// import Hero from '../src/assets/tnigeria-bg.jpeg';
 
 function App() {
   const [activeSection, setActiveSection] = useState<'register' | 'schedule' | 'faq'>('register');
@@ -10,14 +9,14 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      <header className="bg-gradient-to-r py-8 text-center from-green-500 to-green-700 bg-cover bg-bottom bg-[url('../src/assets/tnigeria-bg.jpeg')] text-white shadow-lg">
-        <div className="container mx-auto px-4 pt-6">
-          <h1 className="text-3xl md:text-4xl w-max inline-block p-3 rounded-lg bg-green-500/90 font-bold mb-2">NaijaTech Summit 2025</h1>
+      <header className="bg-gradient-to-r text-center from-green-500 to-green-700  text-white shadow-lg">
+        <div className="container mx-auto px-4 py-6">
+          <h1 className="text-3xl md:text-4xl font-bold mb-2">NaijaTech Summit 2025</h1>
           <p className="text-blue-100">November 15-17, 2025 • Landmark Event Centre, Lagos, Nigeria</p>
         </div>
         
         {/* Navigation */}
-        <nav className="bg-nigeria-green/90 shadow-md">
+        <nav className="bg-nigeria-green/90 backdrop-blur-sm shadow-md">
           <div className="container mx-auto px-4">
             <div className="flex flex-col justify-center sm:flex-row space-y-2 sm:space-y-0 sm:space-x-6 py-6">
               <button 
